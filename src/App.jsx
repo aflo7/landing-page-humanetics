@@ -15,9 +15,12 @@ const App = () => {
         <div className="desktop-nav">
           <div>
             <h1 className="desktop-h1">LOGO</h1>
+            <div style={{display: 'flex', gap: '60px'}}>
+
             <div>Mock</div>
             <div>Mock</div>
             <div>Mock</div>
+            </div>
           </div>
 
           <div>
