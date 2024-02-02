@@ -1,0 +1,149 @@
+.mobile-nav {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-nav {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+main {
+  color: white;
+  text-align: center;
+  padding: 100px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-wrapper {
+  background-image: url(./assets/world.webp);
+  background-size: cover;
+  background-position: top;
+}
+
+.humanetics-img {
+  width: 1200px;
+  margin: 0 auto;
+  height: 300px;
+  background-size: cover;
+  background-image: url(https://www.humaneticsgroup.com/sites/default/files/styles/responsive_lg/public/2024-01/24_corp_website_announcement_banner_1220x360.png.webp?itok=fenqWdC2);
+  background-position: center;
+}
+
+.humanetics-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.man-img {
+  width: 1200px;
+  margin: 0 auto;
+  height: 300px;
+  background-size: cover;
+  background-image: url(https://www.humaneticsgroup.com/sites/default/files/styles/responsive_xl/public/2023-03/23_corp_ceo-message_banner_1220x360.png.webp?itok=qrX6LfxS);
+  background-position: center;
+}
+
+.man-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bottom-nav-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.protecting-humans {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px;
+}
+
+.protecting-humans-header {
+  text-align: center;
+}
+
+.humans-in-motion-header {
+  text-transform: uppercase;
+}
+
+.we-are-humanetics-header {
+  text-transform: uppercase;
+}
+
+.mobile-nav > h1 {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1000px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #423784, #222);
+    color: white;
+    padding-right: 20px;
+  }
+
+  .desktop-h1 {
+    background-color: white;
+    color: black;
+  }
+
+  .desktop-nav > div:nth-child(1) {
+    text-transform: uppercase;
+  }
+
+  .desktop-nav > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .desktop-nav > div > h1 {
+    padding: 10px 20px;
+  }
+  .bottom-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .bottom-nav > div {
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+}
